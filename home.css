@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soham Limaye - Personal Website</title>
+    <link rel="stylesheet" href="home1.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm <span class="highlight">Soham Limaye</span></h1>
+            <p class="tagline">Web Developer | Transforming Ideas into Reality</p>
+            <a href="#portfolio" class="btn">View Portfolio</a>
+        </div>
+        <img src="profile-picture.png" alt="Your Profile Picture" class="profile-pic">
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+		<div class="profile">
+      <p>Welcome to my personal corner of the internet! I'm Soham Limaye, and I'm thrilled to have you here. Let me take a moment to introduce myself and give you a glimpse into what makes me tick.</p>
+    </div>
+    <div class="interests">
+      <div class="interest">
+        <i class="fas fa-network-wired"></i>
+        <h2>Networking Enthusiast</h2>
+        <p>Ever since I plugged in my first Ethernet cable and established my first Wi-Fi connection, I've been captivated by the world of networking. Whether it's setting up secure and efficient networks or delving into the intricacies of routing and switching, I find the ever-evolving landscape of networking both challenging and exhilarating.</p>
+      </div>
+      <div class="interest">
+        <i class="fas fa-shield-alt"></i>
+        <h2>Cyber Security Advocate</h2>
+        <p>In our digitally connected world, ensuring the safety and security of our data is paramount. My passion for cyber security extends from understanding the latest threats and vulnerabilities to implementing robust defenses. I believe in the importance of empowering individuals and organizations to protect their digital assets.</p>
+      </div>
+      <div class="interest">
+        <i class="fas fa-chart-line"></i>
+        <h2>Economics Aficionado</h2>
+        <p>Economics is more than just numbers and graphs; it's a lens through which we can understand the world. I'm fascinated by the dynamics of markets, the impact of economic policies, and the intersection of economics with various aspects of our lives, from politics to technology.</p>
+      </div>
+      <div class="interest">
+        <i class="fas fa-dumbbell"></i>
+        <h2>Wellness and Fitness Enthusiast</h2>
+        <p>I believe in the importance of maintaining a healthy mind and body. When I'm not immersed in the digital realm, you can often find me in the gym, on a hiking trail, or experimenting with new recipes in the kitchen. Wellness and fitness are not just hobbies for me; they're essential components of a balanced and fulfilling life.</p>
+      </div>
+    </div><!-- Add more about me content here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <h3>Project Name 1</h3>
+            <p>Description of the project...</p>
+            <a href="#" class="demo-link">Live Demo</a>
+            <a href="#" class="repo-link">GitHub Repository</a>
+        </div>
+        <div class="project">
+            <h3>Project Name 2</h3>
+            <p>Description of the project...</p>
+            <a href="#" class="demo-link">Live Demo</a>
+            <a href="#" class="repo-link">GitHub Repository</a>
+        </div>
+        <!-- Add more projects here -->
+    </section>
+
+    <!-- Add more sections like Skills, Resume, Blog, and Contact -->
+
+    <footer class="footer">
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
